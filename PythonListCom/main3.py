@@ -1,7 +1,6 @@
 def main():
-    for x in range(1000):
-        if "6" in str(x):
-            print(x)
+    div=[x for x in range(1001) if x%"6" in str(x)]
+    print(div)
 
 
 if __name__ == "__main__":

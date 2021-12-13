@@ -1,9 +1,6 @@
 def main():
-    i = 1
-    while i < 1000:
-        if i == 6[:3]:
-            print(i)
-        i+=1
+   numeros = [i for i in range(1001) if i%8==0]
+   print(numeros)
 
 
 if __name__ == "__main__":
